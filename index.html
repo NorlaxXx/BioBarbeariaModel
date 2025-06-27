@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Norlax Barber | Link na Bio</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: #111;
+      font-family: 'Roboto Mono', monospace;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 30px 20px;
+    }
+
+    .cartao {
+      background: #1b1b1b;
+      border-radius: 16px;
+      padding: 30px 20px;
+      max-width: 400px;
+      width: 100%;
+      box-shadow: 0 0 20px #222;
+      text-align: center;
+    }
+
+    .logo {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      border: 2px solid #fff;
+    }
+
+    h1 {
+      font-size: 26px;
+      margin-bottom: 8px;
+    }
+
+    p {
+      font-size: 14px;
+      color: #ccc;
+      margin-bottom: 24px;
+    }
+
+    .botao {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      background: #333;
+      color: #fff;
+      border: none;
+      padding: 12px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 8px 0;
+      width: 100%;
+      transition: 0.3s;
+    }
+
+    .botao:hover {
+      background: #00c851;
+      color: #000;
+    }
+
+    .botao i {
+      font-size: 18px;
+    }
+
+    footer {
+      margin-top: 20px;
+      font-size: 13px;
+      color: #777;
+    }
+
+    @media (max-width: 480px) {
+      h1 { font-size: 22px; }
+      .botao { font-size: 14px; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="cartao">
+    <img src="logo.jpg" alt="Logo da Norlax Barber" class="logo" />
+
+    <h1>Norlax Barber</h1>
+    <p>Estilo, precisão e atendimento top. Agende seu corte agora!</p>
+
+    <a href="https://wa.me/5599999999999?text=Olá%2C%20quero%20agendar%20um%20horário" target="_blank" class="botao">
+      <i class="fab fa-whatsapp"></i> Agendar pelo WhatsApp
+    </a>
+
+    <a href="https://www.instagram.com/suabarbearia" target="_blank" class="botao">
+      <i class="fab fa-instagram"></i> Instagram
+    </a>
+
+    <a href="https://maps.google.com/?q=Norlax+Barber" target="_blank" class="botao">
+      <i class="fas fa-map-marker-alt"></i> Como Chegar
+    </a>
+
+    <a href="https://example.com/agendamento" target="_blank" class="botao">
+      <i class="fas fa-calendar-check"></i> Reservar Online
+    </a>
+  </div>
+
+  <footer>Feito por Eliel ✂️</footer>
+
+</body>
+</html>
